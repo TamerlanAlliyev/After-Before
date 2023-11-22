@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    background-color: #0F0F1B;
+    color: #fff;
+}
+
+.header {
+    margin: 100px 515px 0px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.paragraf {
+    margin: 10px 165px 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 185px);
+    grid-template-rows: repeat(1, 185px);
+    gap: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    background: #171727;
+    text-align: center;
+
+}
+
+.container .container-bar .bar-paragraf {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.container .container-bar .bar-price {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.container .container-bar .bar-comment {
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.get-started-btn {
+    position: relative;
+    padding: 10px 30px 10px 20px; 
+    border: none;
+    background-color: transparent;
+    color: white; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out; 
+    margin-bottom: 5px; 
+}
+
+.icon-img {
+    position: absolute;
+    top: 50%;
+    right: 5px; 
+    transform: translateY(-50%);
+}
+
+.container {
+    position: relative;
+}
+
+.container input[type="text"] {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(-100%, 100%);
+}
+
+.custom-button {
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 1px solid #69699A;
+    background: rgba(217, 217, 217, 0.00);
+    width: 95px;
+    height: 50px;
+    color: #69699A;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  }
+  
+  .custom-button:hover {
+    background-color: #D9D9D9;
+    color: #333333;
+    border-color: #D9D9D9;
+  }
+  

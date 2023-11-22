@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #0E183E;
+    color: #0E183E;
+}
+
+.container {
+    display: grid;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: #FFF;
+    padding: 20px 15px;
+}
+
+.container h1 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.container .bar-container .lesson-name {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+
+}
+
+.container .bar-container .percentage {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.container .bar-container .progress {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.container .bar-container .bar {
+    width: 300px;
+    height: 15px;
+    border-radius: 10px;
+    border: 1px solid #C3CDE9;
+    position: relative;
+    overflow: hidden;
+}
+
+.container .bar-container .percentage {
+    font-size: 12px;
+    font-weight: 500;
+    width: 25px;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 10px;
+}
+
+.container .bar-container .bar.a::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background-color: #FC9860;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+}
+
+.container .bar-container .bar.b::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background-color: #608CFC;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 75%;
+}
+
+.container .bar-container .bar.c::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background-color:  #FC6086;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 25%;
+}
