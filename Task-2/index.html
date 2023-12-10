@@ -4,60 +4,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>After-Before</title>
     <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
 </head>
 
 <body>
-
-    <h1 class="header">Explore current top deals</h1>
-    <p class="paragraf">Check our best deals across our product range, and get what your website needs</p>
-
     <div class="container">
+        <h2>Explore current top deals</h2>
+        <p>Check our best deals across our product range, and get what your website needs</p>
 
-        <div class="container-bar">
+        <div class="grid-cards">
 
-            <p class="bar-paragraf">Get .biz domain with 45% year off</p>
-            <h1 class="bar-price">$4.88/year</h1>
+            <div class="card active">
+                <div class="head">
+                    <h3>Get .biz domain with 45% year off</h3>
+                    <p>$4.88/year</p>
+                </div>
 
-            <button class="get-started-btn">
-                Get started
-                <img src="./arrow/icons/icon.svg" alt="icon" class="icon-img">
-            </button>
+                <div class="footer">
+                    <a href="#">Get started</a>
+                    <img src="./assets/images/icons/arrow_right.svg" alt="">
+                </div>
+
+            </div>
+
+
+            <div class="card">
+                <div class="head">
+                    <h2>.OI</h2>
+                    <h3>$28.88/year</h3>
+                    <p >Instead of $28.88/year</p>
+                </div>
+
+                <div class="footer">
+                    <a href="#">Get started</a>
+                    <img src="./assets/images/icons/arrow_right.svg" alt="">
+                </div>
+
+            </div>
+
+
+            <div class="card">
+                <div class="head">
+                    <h2>.SO</h2>
+                    <h3>$35.88/year</h3>
+                    <p>Instead of $64.88/year</p>
+                </div>
+
+                <div class="footer">
+                    <a href="#">Get started</a>
+                    <img src="./assets/images/icons/arrow_right.svg" alt="">
+                </div>
+
+            </div>
 
         </div>
 
-        <div class="container-bar">
-
-            <p class="bar-paragraf">.IO</p>
-            <h1 class="bar-price">$28.88/year</h1>
-            <p class="bar-comment">Instead of $28.88/year</p>
-            
-            <button class="get-started-btn">
-                Get started
-                <img src="./arrow/icons/icon.svg" alt="icon" class="icon-img">
-            </button>
-
-        </div>
-
-        <div class="container-bar">
-
-            <p class="bar-paragraf">.SO</p>
-            <h1 class="bar-price">$35.88/year</h1>
-            <p class="bar-comment">Instead of $64.88/year</p>
-            
-            <button class="get-started-btn">
-                Get started
-                <img src="./arrow/icons/icon.svg" alt="icon" class="icon-img">
-            </button>
-
-        </div>
-
+        <button>View More</button>
     </div>
-
-    <button class="custom-button">View More</button>
-
-
 </body>
 
 </html>
